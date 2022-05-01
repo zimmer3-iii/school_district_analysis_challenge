@@ -16,15 +16,15 @@ Deliverables requested and provided are listed here:
 -	g.) Percentage Passing Reading
 -	h.) Percentage Passing Overall
  3. School Summary (Scores for each school individually)
-	a.) School Type
-	b.) Total Schools
-	c.) Total Students
-	d.) Total Budget
-	e.) Average Math Score
-	f.) Average Reading Score
-	g.) Percentage Passing Math
-	h.) Percentage Passing Reading
-	i.) Percentage Passing Overall
+-	a.) School Type
+-	b.) Total Schools
+-	c.) Total Students
+-	d.) Total Budget
+-	e.) Average Math Score
+-	f.) Average Reading Score
+-	g.) Percentage Passing Math
+-	h.) Percentage Passing Reading
+-	i.) Percentage Passing Overall
  4. Top and bottom 5 performing schools
  5. Average Math scores by grade per school.
  6. Average Reading scores by grade per school.
