@@ -7,14 +7,14 @@ Deliverables requested and provided are listed here:
 
  1. Replace the 9th grade reading and math scores at Thomas High School with NaN
  2. District Summary (All schools totaled and averaged)
-	a.) Total Schools
-	b.) Total Students
-	c.) Total Budget
-	d.) Average Math Score
-	e.) Average Reading Score
-	f.) Percentage Passing Math
-	g.) Percentage Passing Reading
-	h.) Percentage Passing Overall
+-	a.) Total Schools
+-	b.) Total Students
+-	c.) Total Budget
+-	d.) Average Math Score
+-	e.) Average Reading Score
+-	f.) Percentage Passing Math
+-	g.) Percentage Passing Reading
+-	h.) Percentage Passing Overall
  3. School Summary (Scores for each school individually)
 	a.) School Type
 	b.) Total Schools
