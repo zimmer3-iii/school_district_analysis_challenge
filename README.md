@@ -25,49 +25,38 @@ Deliverables requested and provided are listed here:
 	g.) Percentage Passing Math
 	h.) Percentage Passing Reading
 	i.) Percentage Passing Overall
-	
- 4. The total number of votes each candidate won
- 5. The winner of the election base on popular vote.
- 6. The voter turnout for each county.
- 7. The percentage of votes from each county out of the total count.
- 8. The county with the highest turnout.		
+ 4. Top and bottom 5 performing schools
+ 5. Average Math scores by grade per school.
+ 6. Average Reading scores by grade per school.
+ 7. Scores based on spending per student.
+ 8. Scores based on school size.		
 
 ## Resources
 - Data Source: schools_complete.csv, students.csv
 - Software: Python 3.7.6, Jupyter Notebook, anaconda 1.9.0
 	
 ## Results
-The analysis of the data shows that:
-- There were 369,711 votes cast in the election.
-- There were 3 candidates and 3 counties.
-### Election Results
--------------------------
-    Total Votes: 369,711
-    -------------------------
 
-    County Votes:
-    Jefferson: 10.5% (38,855)
-    Denver: 82.8% (306,055)
-    Arapahoe: 6.7% (24,801)
-    -------------------------
-    Largest County Turnout: Denver
-    Largest County Votes: 306,055
-    Voting Percentage: 82.8%
-    -------------------------
-    Charles Casper Stockham: 23.0% (85,213)
-    Diana DeGette: 73.8% (272,892)
-    Raymon Anthony Doane: 3.1% (11,606)
-    -------------------------
-    Winner: Diana DeGette
-    Winning Vote Count: 272,892
-    Winning Percentage: 73.8%
-    -------------------------
+Removing the 9th graders' scores from Thomas High Shcool had the following affects: 
+- District summary affects:
+	- Total Students decreased from 39,710 to 38,709.
+	- Average Math Score decreased from 79.0 to 78.9.
+	- Percentage Passing Math decreased from 75.0% to 74.8%.
+	- Percentage Passing Overall decreased from 65.2% to 64.9%
+- School summary affects (Only Thomas High School was affected):
+	- Percentage Passing Math decreased from 93.27% to 93.18%.
+	- Percentage Passing Reading decreased from 97.30% to 97.01%
+	- Percentage Passing Overall decreased from 90.94 to 90.63%
+- Math and Reading Scores by grade affects:
+	- The only affect is that 9th graders at Thomas High School display a NaN for both reading and math scores.
+- Scores by school spending affects:
+	- None, the small percentage change wasn't enought to affect the results.
+- Scores by school size affects:
+	- None, the small percentage change wasn't enought to affect the results.
+- Scores by school type
+	- None, the small percentage change wasn't enought to affect the results.
 
 ## Summary
-A few notes about the python script used for this analysis:
-- This script can be used for any election result with at least 1 candidate and 1 county.
-- This script must be udpated if the election data is not stored in a folder called "Resources" and/or the script is not
-run from a folder containing the "Resources" folder.
-- Similarly the script will not print the results to a text file if there is not a folder called "analysis".
-- An improvement that could be made is to have the results display the numbers of votes and percentage of votes
- each candidate got from each county.
+Removing the 9th graders' scores from Thomas High School had little affect on the summaries the school board
+requested. Only when looking at the Thomas High School results can we see a small percentage change. While I
+would have thought to see a more noticable change in the results, we only removed 461 students from a dataset of 39,170 students (~1.17%).
